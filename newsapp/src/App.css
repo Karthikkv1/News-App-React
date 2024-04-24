@@ -1,0 +1,66 @@
+.header{
+    width: 100%;
+    padding: 20px 5%;
+    /* background-color: gray; */
+    display: flex;
+    justify-content: space-between; /*To place "NEWS TODAY" on left side and "Search News" on right side of header*/
+}
+
+input{
+    width: 20%;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 5px; /*To make "Search News" curve*/
+    outline: none; /*To remove outline*/
+    border: 1px solid gray;
+}
+
+
+
+.news-articles{
+
+    width: 100%;
+    padding: 30px 5%;
+    background-color: #f2f2f2;
+    display: flex;
+    column-gap: 4%;
+    flex-wrap: wrap; /*To avoid shrinkage of items in a same row*/
+    row-gap: 20px;
+
+}
+
+
+.news{
+    width: 22%;
+    /* height: 200px; */
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column; /*To arrange all news containers(news-articles) column wise*/
+    row-gap: 12px;
+    border-radius: 5px;
+   
+}
+
+
+.news-img{
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+    border-radius: 5px;
+    overflow: hidden; /*To avoid extra display of news-img(news images)*/
+    display: flex;
+    justify-content: center;
+}
+
+.news-img img {
+   max-width: 100%;
+   
+
+}
+
+.source{
+    display:flex;
+    justify-content: space-between;
+    color: gray;
+}
